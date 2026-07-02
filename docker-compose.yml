@@ -6,7 +6,7 @@ services:
     container_name: commodity_pricing_db
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_me}
       POSTGRES_DB: pricing_intelligence
     ports:
       - "5432:5432"

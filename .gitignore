@@ -1,0 +1,4 @@
+# .gitignore
+.env
+*.pem
+secrets.json
