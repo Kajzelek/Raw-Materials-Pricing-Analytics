@@ -42,5 +42,6 @@ ON CONFLICT (currency_code) DO NOTHING;
 INSERT INTO dim_commodities (commodity_code, commodity_name, unit) VALUES
 ('XCU', 'Copper', 'tonne'),
 ('ALU', 'Aluminum', 'tonne'),
-('XAU', 'Gold', 'ounce')
+('XAU', 'Gold', 'ounce'),
+('XAG', 'Silver', 'ounce')
 ON CONFLICT (commodity_code) DO NOTHING;
